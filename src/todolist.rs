@@ -1,4 +1,3 @@
-
 pub mod todolist{
 	extern crate chrono;
 	use ansi_term::Style;
@@ -47,7 +46,6 @@ pub mod todolist{
 		}
 
 		pub fn print(&self) -> (){
-
 			if self.completed {
 				println!("  {}", Style::new().strikethrough().paint(&self.name));
 			} else {
@@ -91,6 +89,7 @@ pub mod todolist{
 			}
 		}
 	}
+
 
 
 }
