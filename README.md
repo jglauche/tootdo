@@ -10,3 +10,6 @@ license: GPL-3
 
 Thanks to my sponsors for helping me out financially:
 - aisuzuki
+
+And thanks to my sponsors who wish to remain anonymous as well!
+
