@@ -1,5 +1,5 @@
-use crate::todolist::*;
-use crate::text_nav::*;
+use crate::todolist::TodoList;
+use crate::text_nav::query;
 use std::error::Error;
 use termion::{*,color};
 use serde::{Serialize, Deserialize};

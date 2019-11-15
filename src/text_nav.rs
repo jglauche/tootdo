@@ -22,7 +22,7 @@ pub fn query(query: &str, default: &str) -> Result<(String), Box<dyn Error>> {
 			},
 			Key::Backspace => {
 				if buf.len() > 0 {
-					buf.truncate(buf.len()-1);
+					buf.pop();
 					clear = true;
 				}
 			},
